@@ -24,15 +24,15 @@ const [isClose , setClose]=useState(false)
             <Link to="/marketplace">Marketplace</Link>
           </li>
           <li>
-            <Link to="/rankings">Rankings</Link>
+            <Link to="/ranking">Rankings</Link>
           </li>
           <li>
-            <Link to="/connect-wallet">Connect a Wallet</Link>
+            <Link to="/wallet">Connect a Wallet</Link>
           </li>
         </ul>
       
       <div className='above' >
-        <Link to="/signup" className="my-btn "><Person /> {' '} Sign up</Link>
+        <Link to="/sign_up" className="my-btn "><Person /> {' '} Sign up</Link>
       </div>
       </div>
 
@@ -42,15 +42,15 @@ const [isClose , setClose]=useState(false)
             <Link to="/marketplace">Marketplace</Link>
           </li>
           <li>
-            <Link to="/rankings">Rankings</Link>
+            <Link to="/ranking">Rankings</Link>
           </li>
           <li>
-            <Link to="/connect-wallet">Connect a Wallet</Link>
+            <Link to="/wallet">Connect a Wallet</Link>
           </li>
         </ul>
       
       <button className="my-btn ">
-        <Link to="/signup"><Person /> {' '} Sign up</Link>
+        <Link to="/sign_up"><Person /> {' '} Sign up</Link>
       </button>
       </div>
 

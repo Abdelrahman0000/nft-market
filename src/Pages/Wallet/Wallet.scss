@@ -1,0 +1,88 @@
+.signin{
+.my-row{
+    justify-content: flex-start;
+}
+.left{
+    margin-top: 4rem;
+    width: 43%;
+    height: 615px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.right{
+    margin-top: 4rem;
+width: 45%;
+padding: 0 5%;
+h5{
+    margin:1.5rem;
+}
+.inner{
+    width: 80%;
+
+.box{
+    height: 72px;
+max-width: 320px;
+border-radius: 20px;
+padding: 0px 20px 0px 40px;
+cursor: pointer;
+margin: 1.5rem 0;
+width: 100%;
+border: 1px solid rgba(162, 89, 255, 1);
+img{
+    height: 40px;
+width: 40px;
+
+}
+h5{
+    color: #fff;
+}
+}
+
+
+}
+}
+
+}
+
+
+
+@media(max-width:850px){
+
+.signin{
+    .left{
+        width: 48%;
+    }
+    .right{
+        width: 51%;
+    }
+}
+
+
+}
+
+
+@media(max-width:550px){
+
+    .signin{
+        .my-row{
+            flex-wrap: wrap;
+        }
+        .left{
+            width: 100%;
+            height:333px ;
+        }
+        .right{
+            width: 100%;
+           .my-btn , input{
+                max-width: none !important;
+            }
+            .inner{
+                width: 100%;
+            }
+        }
+    }
+    
+    
+    }

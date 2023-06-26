@@ -51,7 +51,7 @@ export default function Home() {
       <section>
         <div className="my-row Discover">
           <div className="Left">
-            <h2>Discover digital art & Collect NFTs</h2>
+            <h1>Discover digital art & Collect NFTs</h1>
             <h5>
               NFT marketplace UI created with Abdelrahman Khalifa . Collect, buy and
               sell art from more than 20k NFT artists.
@@ -66,17 +66,17 @@ export default function Home() {
               <div className="my-row" style={{ width: '100%', justifyContent: 'space-between' }}>
                 <div className="my-col">
                   {" "}
-                  <h3>240k+ </h3> <h4>Total Sale</h4>{" "}
+                  <h4>240k+ </h4> <h4>Total Sale</h4>{" "}
                 </div>{" "}
 
 
                 <div className="my-col">
                   {" "}
-                  <h3>100k+</h3> <h4>Auctions</h4>{" "}
+                  <h4>100k+</h4> <h4>Auctions</h4>{" "}
                 </div>
                 <div className="my-col">
                   {" "}
-                  <h3>240k+ </h3> <h4>Artists</h4>{" "}
+                  <h4>240k+ </h4> <h4>Artists</h4>{" "}
                 </div>
               </div>
             </div>
@@ -95,17 +95,17 @@ export default function Home() {
               <div className="my-row" style={{ width: '100%', justifyContent: 'space-between' }}>
                 <div className="my-col">
                   {" "}
-                  <h3>240k+ </h3> <h4>Total Sale</h4>{" "}
+                  <h4>240k+ </h4> <h4>Total Sale</h4>{" "}
                 </div>{" "}
 
 
                 <div className="my-col">
                   {" "}
-                  <h3>100k+</h3> <h4>Auctions</h4>{" "}
+                  <h4>100k+</h4> <h4>Auctions</h4>{" "}
                 </div>
                 <div className="my-col">
                   {" "}
-                  <h3>240k+ </h3> <h4>Artists</h4>{" "}
+                  <h4>240k+ </h4> <h4>Artists</h4>{" "}
                 </div>
               </div>
             </div>
@@ -120,7 +120,7 @@ export default function Home() {
           <p className="my-p">Checkout our weekly updated trending collection.</p>
 
           <div className="my-grid">
-            <Link to={'#'} className="trend1">
+            <Link to={'/artist'} className="trend1">
               <div className="image">
                 <img src={Im1} alt="" />
               </div>
@@ -147,7 +147,7 @@ export default function Home() {
 
             </Link>
 
-            <Link to={'#'} className="trend2">
+            <Link to={'/artist'} className="trend2">
               <div className="image">
                 <img src={Im4} alt="" />
               </div>
@@ -171,7 +171,7 @@ export default function Home() {
                 <p className="my-p2">Shroomie</p>
               </div>
             </Link>
-            <Link to={'#'} className="trend3">
+            <Link to={'/artist'} className="trend3">
               <div className="image">
                 <img src={Im7} alt="" />
               </div>
@@ -205,84 +205,6 @@ export default function Home() {
 
         </div>
         {/* /////////////////////////////////////////////// Creators ///////////////////////////////////////////////////////////////// */}
-
-        <div className="Creators">
-
-          <h4 style={{ fontWeight: 'bold' }}>Trending Collection</h4>
-          <p className="my-p">Checkout our weekly updated trending collection.</p>
-
-
-          <div className="my-grid">
-
-            <Link to={'#'} className="creator-box">
-              <div className="creator-inner">
-                <div className="image">
-                  <span>1</span>
-                  <img src="https://s3-alpha-sig.figma.com/img/097d/8805/7996f61cddab0708f90589b5862464d9?Expires=1684108800&Signature=FZJYXwzcVCSCGCV-3ahOYpoFu5EZ58i2N1nwUdC70V8j-LOH6b4E4SaPd2wN5zNkMm3hMLt4WA9ve2TJocayO-8fiHy-FCK5ZB0V95OeygUbwHBtrLm6s1iMatoOUHxRa6bi0fFKNViFETfGkL-QS41dJfPSWteYlLHWExgNjHIVi-MiJZBKo6~DOm4YuNO~J~QZttbq5OghaAGuzNk9gCbmo4YlG-zp9-oAAL9iDHdWfpc5QHhobJ2i2O68g15tJVEJi0xCOT66-oJhqzWlzjRhARCBO56GOzFm000WWFGsUy243fyGpkm04CzQZgepwlzXyCup97vGP0pExGl5Ag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                </div>
-
-                <div className="my-col">
-                  <h5 style={{ fontWeight: '600' }}>GravityOne</h5>
-
-                  <p>Total Sales: <span>34.53 ETH</span></p>
-
-                </div>
-              </div>
-            </Link>
-
-            <Link to={'#'} className="creator-box">
-              <div className="creator-inner">
-                <div className="image">
-                  <span>1</span>
-                  <img src="https://s3-alpha-sig.figma.com/img/097d/8805/7996f61cddab0708f90589b5862464d9?Expires=1684108800&Signature=FZJYXwzcVCSCGCV-3ahOYpoFu5EZ58i2N1nwUdC70V8j-LOH6b4E4SaPd2wN5zNkMm3hMLt4WA9ve2TJocayO-8fiHy-FCK5ZB0V95OeygUbwHBtrLm6s1iMatoOUHxRa6bi0fFKNViFETfGkL-QS41dJfPSWteYlLHWExgNjHIVi-MiJZBKo6~DOm4YuNO~J~QZttbq5OghaAGuzNk9gCbmo4YlG-zp9-oAAL9iDHdWfpc5QHhobJ2i2O68g15tJVEJi0xCOT66-oJhqzWlzjRhARCBO56GOzFm000WWFGsUy243fyGpkm04CzQZgepwlzXyCup97vGP0pExGl5Ag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                </div>
-
-                <div className="my-col">
-                  <h5 style={{ fontWeight: '600' }}>GravityOne</h5>
-
-                  <p>Total Sales: <span>34.53 ETH</span></p>
-
-                </div>
-              </div>
-            </Link>
-
-            <Link to={'#'} className="creator-box">
-              <div className="creator-inner">
-                <div className="image">
-                  <span>1</span>
-                  <img src="https://s3-alpha-sig.figma.com/img/097d/8805/7996f61cddab0708f90589b5862464d9?Expires=1684108800&Signature=FZJYXwzcVCSCGCV-3ahOYpoFu5EZ58i2N1nwUdC70V8j-LOH6b4E4SaPd2wN5zNkMm3hMLt4WA9ve2TJocayO-8fiHy-FCK5ZB0V95OeygUbwHBtrLm6s1iMatoOUHxRa6bi0fFKNViFETfGkL-QS41dJfPSWteYlLHWExgNjHIVi-MiJZBKo6~DOm4YuNO~J~QZttbq5OghaAGuzNk9gCbmo4YlG-zp9-oAAL9iDHdWfpc5QHhobJ2i2O68g15tJVEJi0xCOT66-oJhqzWlzjRhARCBO56GOzFm000WWFGsUy243fyGpkm04CzQZgepwlzXyCup97vGP0pExGl5Ag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                </div>
-
-                <div className="my-col">
-                  <h5 style={{ fontWeight: '600' }}>GravityOne</h5>
-
-                  <p>Total Sales: <span>34.53 ETH</span></p>
-
-                </div>
-              </div>
-            </Link>
-
-            <Link to={'#'} className="creator-box">
-              <div className="creator-inner">
-                <div className="image">
-                  <span>1</span>
-                  <img src="https://s3-alpha-sig.figma.com/img/097d/8805/7996f61cddab0708f90589b5862464d9?Expires=1684108800&Signature=FZJYXwzcVCSCGCV-3ahOYpoFu5EZ58i2N1nwUdC70V8j-LOH6b4E4SaPd2wN5zNkMm3hMLt4WA9ve2TJocayO-8fiHy-FCK5ZB0V95OeygUbwHBtrLm6s1iMatoOUHxRa6bi0fFKNViFETfGkL-QS41dJfPSWteYlLHWExgNjHIVi-MiJZBKo6~DOm4YuNO~J~QZttbq5OghaAGuzNk9gCbmo4YlG-zp9-oAAL9iDHdWfpc5QHhobJ2i2O68g15tJVEJi0xCOT66-oJhqzWlzjRhARCBO56GOzFm000WWFGsUy243fyGpkm04CzQZgepwlzXyCup97vGP0pExGl5Ag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                </div>
-
-                <div className="my-col">
-                  <h5 style={{ fontWeight: '600' }}>GravityOne</h5>
-
-                  <p>Total Sales: <span>34.53 ETH</span></p>
-
-                </div>
-              </div>
-            </Link>
-
-          </div>
-
-
-
-        </div>
 
 
         {/* /////////////////////////////////////////////// Browes ///////////////////////////////////////////////////////////////// */}
@@ -408,7 +330,7 @@ export default function Home() {
           <p className="my-p">Checkout our weekly updated trending collection.</p>
 
           <div className="my-grid">
-            <Link to={'#'} className="trend1">
+            <Link to={'/artist'} className="trend1">
               <div className="trend-inner">
                 <div className="image">
                   <img src={Ex1} alt="" />
@@ -430,7 +352,7 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link to={'#'} className="trend1">
+            <Link to={'/artist'} className="trend1">
               <div className="trend-inner">
                 <div className="image">
                   <img src={Ex2} alt="" />
@@ -451,7 +373,7 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link to={'#'} className="trend1">
+            <Link to={'/artist'} className="trend1">
               <div className="trend-inner">
                 <div className="image">
                   <img src={Ex3} alt="" />
