@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Card({Ex2,Exp2}) {
   return (
-    <Link to={'/artist'} className="trend1">
+    <Link to={'/artist'} className="card">
               <div className="trend-inner">
                 <div className="image">
                   <img src={Ex2} alt="" />

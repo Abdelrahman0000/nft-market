@@ -36,7 +36,7 @@ const [isClose , setClose]=useState(false)
       </div>
       </div>
 
-      <div className={`links my-column d-none-saconde ${isClose?`animate`:`noneHight`}`}>
+      <div className={`links my-column insmall d-none-saconde ${isClose?`animate`:`noneHight`}`}>
         <ul className='my-column'>
           <li>
             <Link to="/marketplace">Marketplace</Link>
@@ -49,9 +49,9 @@ const [isClose , setClose]=useState(false)
           </li>
         </ul>
       
-      <button className="my-btn ">
-        <Link to="/sign_up"><Person /> {' '} Sign up</Link>
-      </button>
+     
+        <Link className="my-btn " to="/sign_up"><Person /> {' '} Sign up</Link>
+     
       </div>
 
 
