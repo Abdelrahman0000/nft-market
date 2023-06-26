@@ -1,18 +1,31 @@
+/* eslint-disable import/first */
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './commponant/Navbar/Navbar.tsx';
 import Footer from './commponant/Footer/Footer.tsx';
 
-// Import your components using lazy loading
+
 const Home = lazy(() => import('./Pages/Home/Home.tsx'));
 
-const SignUp = lazy(() => import('./Pages/SignIN/SginIn.tsx'));
-const Wallet = lazy(() => import('./Pages/Wallet/Wallet.tsx'));
-const Rankeing = lazy(() => import('./Pages/Rankeing/Rankeing.tsx'));
+import SginIn from './Pages/SignIN/SginIn.tsx';
+import Wallet from './Pages/Wallet/Wallet.tsx';
+import Rankeing from './Pages/Rankeing/Rankeing.tsx';
 
-const Market = lazy(() => import('./Pages/MarketPlace/MarketPlace.tsx'));
-const Artist = lazy(() => import('./Pages/ArtistProfile/ArtistProfile.tsx'));
-const LogIn = lazy(() => import('./Pages/LogIn/LogIn.tsx'));
+import Market from './Pages/MarketPlace/MarketPlace.tsx';
+import Artist from './Pages/ArtistProfile/ArtistProfile.tsx';
+import LogIn  from './Pages/LogIn/LogIn.tsx'
+
+
+// // Import your components using lazy loading
+// const Home = lazy(() => import('./Pages/Home/Home.tsx'));
+
+// const SignUp = lazy(() => import('./Pages/SignIN/SginIn.tsx'));
+// const Wallet = lazy(() => import('./Pages/Wallet/Wallet.tsx'));
+// const Rankeing = lazy(() => import('./Pages/Rankeing/Rankeing.tsx'));
+
+// const Market = lazy(() => import('./Pages/MarketPlace/MarketPlace.tsx'));
+// const Artist = lazy(() => import('./Pages/ArtistProfile/ArtistProfile.tsx'));
+// const LogIn = lazy(() => import('./Pages/LogIn/LogIn.tsx'));
 
 
 export default function Linking() {
@@ -32,7 +45,7 @@ export default function Linking() {
           <Route exact path="/artist" element={<Artist />} />
           <Route exact path="/ranking" element={<Rankeing />} />
           <Route exact path="/wallet" element={<Wallet />} />
-          <Route exact path="/sign_up" element={<SignUp />} />
+          <Route exact path="/sign_up" element={<SginIn />} />
 
           <Route exact path="/marketplace" element={<Market />} />
 
